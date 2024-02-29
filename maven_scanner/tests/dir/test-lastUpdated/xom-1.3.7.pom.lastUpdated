@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 30 17:19:49 CET 2023
+https\://example2.com/repository/Public_Repositories_Releases/.lastUpdated=1701361189226
+https\://example1.com/repository/maven-releases/.error=Could not transfer artifact xom\:xom\:pom\:1.3.7 from/to tst_releases (https\://example1.com/repository/maven-releases)\: PKIX path building failed\: sun.security.provider.certpath.SunCertPathBuilderException\: unable to find valid certification path to requested target
+https\://example1.com/repository/maven-snapshots/.error=Could not transfer artifact xom\:xom\:pom\:1.3.7 from/to tst_snapshots (https\://example1.com/repository/maven-snapshots)\: PKIX path building failed\: sun.security.provider.certpath.SunCertPathBuilderException\: unable to find valid certification path to requested target
+5ccaae95dc3f5faac959c44a79f8b597db32bdfb@default-tst_snapshots-https\://example1.com/repository/maven-snapshots/.lastUpdated=1701361188922
+5ccaae95dc3f5faac959c44a79f8b597db32bdfb@default-tst_releases-https\://example1.com/repository/maven-releases/.lastUpdated=1701361188812
