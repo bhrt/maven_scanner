@@ -31,7 +31,8 @@ class MavenScanner:
                 dir_full_path = os.path.join(root, jar_dir)
                 for file in os.listdir(dir_full_path):
                     if file.endswith('.jar') or file.endswith('.zip'):
-                        self.jar_dir_dict[file] = dir_full_path
+                        if not file.endswith('-sources.jar'):       #Do not deploy source jar's
+                            self.jar_dir_dict[file] = dir_full_path
 
     def parse_pom_file(self, dir_path):
         """

@@ -65,3 +65,6 @@ class TestMavenScanner(unittest.TestCase):
                 mock_finditer.side_effect = Exception('Test exception')
                 result = self.scanner.parse_last_updated_file(temp_dir)
             self.assertIsNone(result)  # Ensure None is returned when an exception occurs
+
+    def test_deploy_to_server(self):
+        pass
